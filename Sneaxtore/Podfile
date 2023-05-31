@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Sneaxtore' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Sneaxtore
+  pod 'IQKeyboardManagerSwift'
+
+  target 'SneaxtoreTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SneaxtoreUITests' do
+    # Pods for testing
+  end
+
+end
